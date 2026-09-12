@@ -291,4 +291,4 @@ be updated with a DOI once it is published.
 
 ## License
 
-[MIT](LICENSE) © 2026 Mohammad Razib Mustafiz and Akram Hossain
+[MIT](LICENSE) © 2026 Mohammad Razib Mustafiz
