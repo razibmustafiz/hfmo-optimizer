@@ -1,4 +1,4 @@
-# hfmo-optimizer
+# Hilsha Fish Migration Optimization (HFMO): A Novel Optimization Algorithm Based on Hilsha Fish Migration Pattern
 
 **Hilsha Fish Migration Optimization (HFMO)** — a phase-scheduled hybrid metaheuristic for
 continuous, bound-constrained optimization, inspired by the salinity-driven migration of Hilsha
