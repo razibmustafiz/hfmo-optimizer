@@ -2,6 +2,10 @@
 
 ## [0.1.0] -- 2026-09-12
 
+The PyPI distribution is named `hfmo` (previously planned as `hfmo-optimizer`
+before this version's first release; the import name has always been
+`hfmo`, i.e. `import hfmo`, `pip install hfmo`).
+
 Initial public release. This is a corrected, vectorized re-implementation of
 the research prototype (`HFMO_Algorithm.ipynb`) used during development of
 the accompanying manuscript. The algorithm -- the four phases, the salinity

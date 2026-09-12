@@ -5,7 +5,7 @@ continuous, bound-constrained optimization, inspired by the salinity-driven migr
 (*Tenualosa ilisha*) between marine and freshwater habitats in the Bay of Bengal.
 
 ```bash
-pip install git+https://github.com/razibmustafiz/hfmo-optimizer.git
+pip install hfmo
 ```
 
 ```python
@@ -107,7 +107,10 @@ rather than let a biological metaphor imply more originality than there is.
 ## Installation
 
 ```bash
-# Directly from GitHub
+# From PyPI
+pip install hfmo
+
+# Or directly from GitHub
 pip install git+https://github.com/razibmustafiz/hfmo-optimizer.git
 
 # Or, for local development
