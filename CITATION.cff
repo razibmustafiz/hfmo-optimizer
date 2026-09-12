@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated manuscript (currently in preparation) and, optionally, this repository."
+type: software
+title: "hfmo-optimizer: Hilsha Fish Migration Optimization"
+authors:
+  - family-names: Mustafiz
+    given-names: Mohammad Razib
+    affiliation: "Jahangirnagar University; Dublin City University"
+  - family-names: Hossain
+    given-names: Akram
+    affiliation: "Jahangirnagar University; Bangladesh University of Textiles"
+repository-code: "https://github.com/razibmustafiz/hfmo-optimizer"
+license: MIT
+version: 0.1.0
+date-released: 2026-09-12
+abstract: >
+  Reference implementation of Hilsha Fish Migration Optimization (HFMO), a
+  phase-scheduled hybrid metaheuristic for continuous, bound-constrained
+  optimization inspired by the salinity-driven migration of Hilsha
+  (Tenualosa ilisha) in the Bay of Bengal. The accompanying manuscript
+  describing the algorithm and its benchmark evaluation is in preparation;
+  this record will be updated with a DOI once it is published.

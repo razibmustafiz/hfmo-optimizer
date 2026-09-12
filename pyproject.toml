@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hfmo-optimizer"
+version = "0.1.0"
+description = "Hilsha Fish Migration Optimization (HFMO) -- a phase-scheduled hybrid metaheuristic for continuous optimization"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "Mohammad Razib Mustafiz" },
+    { name = "Akram Hossain" },
+]
+keywords = [
+    "optimization",
+    "metaheuristic",
+    "swarm-intelligence",
+    "particle-swarm-optimization",
+    "bio-inspired-computing",
+    "global-optimization",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "numpy>=1.20",
+    "scipy>=1.7",
+]
+
+[project.optional-dependencies]
+examples = ["matplotlib>=3.4"]
+dev = ["pytest>=7", "pytest-cov"]
+
+[project.urls]
+Homepage = "https://github.com/razibmustafiz/hfmo-optimizer"
+Repository = "https://github.com/razibmustafiz/hfmo-optimizer"
+Issues = "https://github.com/razibmustafiz/hfmo-optimizer/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
