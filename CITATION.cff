@@ -6,9 +6,6 @@ authors:
   - family-names: Mustafiz
     given-names: Mohammad Razib
     affiliation: "Jahangirnagar University; Dublin City University"
-  - family-names: Hossain
-    given-names: Akram
-    affiliation: "Jahangirnagar University; Bangladesh University of Textiles"
 repository-code: "https://github.com/razibmustafiz/hfmo-optimizer"
 license: MIT
 version: 0.1.0
